@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <meta http-equiv="refresh" content="15"> -->
+    <title> PERSONAL PORTFOLIO Website</title>
+    <link rel="stylesheet" href="style (1).css">
+    <script src="https://kit.fontawesome.com/fea39307b9.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+
+
+            <nav>
+                <img src="Pink Yellow Y2K Portfolio Cover Page (1).png" alt="logo" class="logo" height="60px"
+                    width="50px" style="border-radius: 10px;"><br>
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#About">About</a></li>
+                    <li><a href="#Services">Services</a></li>
+                    <li><a href="#Portfolio">Portfolio</a></li>
+                    <li><a href="#Contact">Contact</a></li>
+                    <!-- <i class="fa-solid fa-times" onclick="closemenu()"></i> -->
+                </ul>
+                <!-- <i class="fa-solid fa-bars" onclick="openmenu()"></i> -->
+            </nav>
+
+            <div class="comtainer">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="header_text">
+                            <p>Software Engineer</p>
+                            <h1>Hi,I'm <span>Shraddha</span><br> from Kolhapur</h1>
+                        </div>
+                    </div>
+                    <div id="hdimg" class="col-md-6">
+                        <img src="shakti_4.jpg" alt="This is head img" class="imgmain">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    </div>
+    <!--About me-->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="shraadha_img-PhotoRoom.png-PhotoRoom.png" alt="My pic" height="500px" width="500px">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About me</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In deserunt eum deleniti, similique
+                        <br>
+                        ducimus br Odio, a. Veritatis consequuntur, at natus ad modi repudiandae
+                        commodi voluptatum <br>
+                        laborum sequi pariatur dolor.
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Web Developer</span><br>Website Development</li>
+                            <li><span>Java Developer</span><br>Developing applications and <br>software using the Java
+                                programming language</li>
+
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li>I'm a newcomer with a passion to learn and a fresh outlook. <br>Ready to jump into the
+                                world
+                                of Full Stack Developer, I aim <br> to use
+                                my education and enthusiasm to contribute and grow in <br>exciting projects.
+                            </li>
+                        </ul>
+
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2024</span><br>Engineering From SIT</li>
+                            <li><span>2020</span><br>12<sup>th</sup>from P.B.Patil College,Mudal</li>
+                            <li><span>2018</span><br>10<sup>th</sup>from P.B.Patil College,Mudal</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Services-->
+    <div id="sevices">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Development</h2>
+                    <p>I'm a passionate web developer. My journey began with a
+                        love for coding and
+                        evolved into a commitment to creating visually stunning and functional websites.I specialize in
+                        front-end and back-end development.
+                    </p>
+                    <a href="#">Learn more </a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-java"></i>
+                    <h2>Java Developer</h2>
+                    <p>I'm a passionate Java developer.My love for coding ignited the spark that led me to the world of
+                        Java development.Specializing in Java development, I thrive on creating dynamic and efficient
+                        web applications.</p>
+                    <a href="#">Learn more </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--PORTFOLIO-->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Projects</h1>
+            <div class="worklist">
+                <div class="work">
+                    <img src="project_2.jpg" alt="work pic" height="600" width="300">
+                    <div class="layer">
+                        <h3>Student verification app</h3>
+                        <p>Student verification system is used to check whether or not a student is legally belongs to
+                            an particular institution or
+                            not.
+                            This project uses special computer techniques.
+                            we created login page and access given only to hod and faculty for security purpose.and I'd
+                            and password is already
+                            declared by creating strings.</p>
+                        <a href="#" class="cl"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="project_1.jpg" alt="work pic" height="600" width="300">
+                    <div class="layer_1">
+                        <p>Then after login ,we have to take photo or choose photo from internal database in which we
+                            stored information of
+                            students and check whether student belong to institution or not. It captures photo and we
+                            have to click on recogize
+                            face. if it says yes then it shows all information about that student and if no it shows
+                            unknown and it shows error.
+                            Then tensor flow light which is machine learning pre- defined library and open source
+                            platform used for face
+                            recognition.we use the pre defined librarys of machine learning.</p>
+                        <a href="#" class="cl"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">see more</a>
+        </div>
+    </div>
+    <!--contact section>-->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contactleft">
+                    <h1 class="sub-title">Contact me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>shradhamhangore@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone-flip"></i>7058745497</p>
+                    <div class="socialicons">
+                        <a href="https://github.com/"><i class=" fa-brands fa-github"></i></a>
+                        <a href=""><i class=" fa-brands fa-linkedin"></i></a>
+                        <a href=""><i class=" fa-brands fa-instagram"></i></a>
+                    </div>
+                    <a href="resume.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contactright">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright @ Shraddha. Made with <i class="fa-solid fa-heart"></i> by Easy Tutorials</p>
+        </div>
+
+
+    </div>
+    <!--It is about section script tag-->
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu() {
+            sidemenu.style.right = "0";
+        }
+        function closemenu() {
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbzN8YzHbx2EvavVIe3zO9sP6BS940wzUtPJ37RJOuNs6tHP13x7hPOZLSIdlVlooqByTg/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => {
+                    msg.innerHTML = "Message sent Successfully"
+                    setTimeout(function () {
+                        msg.innerHTML = ""
+                    }, 5000)
+                    form.reset()
+                })
+
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+</body>
+
+</html>
